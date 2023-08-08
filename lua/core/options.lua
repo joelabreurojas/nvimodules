@@ -1,0 +1,27 @@
+-- See `:help vim.o`
+vim.o.cursorline = true
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.softtabstop = 4
+vim.o.smartindent = true
+vim.o.expandtab = true
+vim.o.autoread = true
+vim.o.scrolloff = 7
+vim.o.relativenumber = true
+vim.o.breakindent = true               -- Enable break indent
+vim.o.clipboard = "unnamedplus"        -- Sync clipboard between OS and Neovim. See `:help "clipboard"`
+vim.o.completeopt = "menuone,noselect" -- Set completeopt to have a better completion experience
+vim.o.hlsearch = false                 -- Set highlight on search 
+vim.o.ignorecase = true                -- Case-insensitive searching... 
+vim.o.mouse = "a"                      -- Enable mouse mode
+vim.o.smartcase = true                 -- ...UNLESS \C or capital in search
+vim.o.termguicolors = true             -- (Confirm if your terminal supports this, thx)
+vim.o.timeoutlen = 300
+vim.o.undofile = true                  -- Save undo history
+vim.o.updatetime = 250                 -- Decrease update time
+vim.wo.number = true                   -- Make line numbers default
+vim.wo.signcolumn = "yes"              -- Keep signcolumn on by default
+vim.g.netrw_banner=0                   -- disable that anoying Netrw banner
+vim.g.netrw_browser_split=4            -- open in a prior window
+vim.g.netrw_altv=1                     -- open splits to the right
+vim.g.netrw_liststyle=3                -- treeview
